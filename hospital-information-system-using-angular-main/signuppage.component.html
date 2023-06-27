@@ -1,0 +1,33 @@
+<body>
+	<div class="container">
+		<h1>Sign Up</h1>
+		<form method="post" id="formData" #userData="ngForm" (ngSubmit)="registerUser(userData.value)">
+			<div class="main">
+				<input type="text" name="firstname" ngModel>
+				<span></span>
+				<label>Username</label>
+			</div>
+            <div class="main">
+				<input type="text" name="lastname" ngModel>
+				<span></span>
+				<label> Enter lastname</label>
+			</div>
+<div class="main">
+				<input type="text" name="email" ngModel>
+				<span></span>
+				<label>email</label>
+			</div>
+   <div class="main">
+				<input type="password" name="email" ngModel>
+				<span></span>
+				<label>Enter password</label>
+			</div>
+			<div class="pass"></div>
+			<input type="submit" value="Sign Up">            
+			<div class="signup">
+				Go to home page: <a href="#" class="pinkk">HOME PAGE</a>
+			</div>
+		</form>
+	</div>
+</body>
+

@@ -1,0 +1,131 @@
+<div class="hosp">
+<mat-card class="example-card">
+  <div class="doctorssp">
+  <header></header>
+	<mat-card-header>
+		<mat-card-title>
+				<div *ngFor="let doctor of doctor">
+					{{doctor.name}}
+				</div>		
+		</mat-card-title>
+		<mat-card-subtitle>
+		</mat-card-subtitle>
+		<br> <br>
+		<br>
+	</mat-card-header>
+<mat-card-content>
+		<img [src]=pic1 class="fe">
+						<li *ngFor="let doctor of doctor">
+    		{{doctor.studies}}
+				</li>
+				<li *ngFor="let doctor of doctor">	{{doctor.experience}}</li>
+				<li *ngFor="let doctor of doctor">	{{doctor.availibility}}</li>
+				<li *ngFor="let doctor of doctor">	{{doctor.specialist}}</li>
+				<li *ngFor="let doctor of doctor">	{{doctor.timing}}</li>
+					</mat-card-content>
+	</div>
+	</mat-card>
+ <mat-card class="example-card">
+  <div class="doctorssp">
+	<header></header>
+	  <mat-card-header>
+		  <mat-card-title>
+				  <div *ngFor="let doctor of doctor">
+					  {{doctor.name1}}
+				  </div>		
+		  </mat-card-title>
+		  <mat-card-subtitle>
+		  </mat-card-subtitle>
+		  <br> <br>
+		  <br>
+	  </mat-card-header>
+	  <mat-card-content>
+		  <img [src]=pic2 class="ma">				  <li *ngFor="let doctor of doctor">
+				  
+				  {{doctor.studies1}}
+				  </li>
+				  <li *ngFor="let doctor of doctor">	{{doctor.experience1}}</li>
+				  <li *ngFor="let doctor of doctor">	{{doctor.availibility1}}</li>
+				  <li *ngFor="let doctor of doctor">	{{doctor.specialist1}}</li>
+				  <li *ngFor="let doctor of doctor">	{{doctor.timing1}}</li>
+</mat-card-content>
+	  	</div>
+</mat-card>
+<mat-card class="example-card">
+	<div class="doctorssp">
+	  <header></header>
+		<mat-card-header>
+			<mat-card-title>
+					<div *ngFor="let doctor of doctor">
+						{{doctor.name2}}
+					</div>		
+			</mat-card-title>
+			<mat-card-subtitle>
+		</mat-card-subtitle>
+			<br> <br>
+			<br>
+		</mat-card-header>
+	  <mat-card-content>
+			<img [src]=pic2 class="ma">
+				<li *ngFor="let doctor of doctor">
+					{{doctor.studies2}}
+					</li>
+					<li *ngFor="let doctor of doctor">	{{doctor.experience2}}</li>
+					<li *ngFor="let doctor of doctor">	{{doctor.availibility2}}</li>
+					<li *ngFor="let doctor of doctor">	{{doctor.specialist2}}</li>
+					<li *ngFor="let doctor of doctor">	{{doctor.timing2}}</li>
+				  	</mat-card-content>
+		  </div>
+  </mat-card>
+  <mat-card class="example-card">
+	<div class="doctorssp">
+	  <header></header>
+		<mat-card-header>
+			<mat-card-title>
+					<div *ngFor="let doctor of doctor">
+						{{doctor.name3}}
+					</div>		
+			</mat-card-title>
+			<mat-card-subtitle>
+			</mat-card-subtitle>
+			<br> <br>
+			<br>
+		</mat-card-header>
+	  	<mat-card-content>
+			<img [src]=pic2 class="ma">
+					<li *ngFor="let doctor of doctor">
+					{{doctor.studies3}}
+					</li>
+					<li *ngFor="let doctor of doctor">	{{doctor.experience3}}</li>
+					<li *ngFor="let doctor of doctor">	{{doctor.availibility3}}</li>
+					<li *ngFor="let doctor of doctor">	{{doctor.specialist3}}</li>
+					<li *ngFor="let doctor of doctor">	{{doctor.timing3}}</li>
+				  </mat-card-content>
+			  </div>
+  </mat-card>
+  <mat-card class="example-card">
+	<div class="doctorssp">
+	  <header></header>
+		<mat-card-header>
+			<mat-card-title>
+					<div *ngFor="let doctor of doctor">
+						{{doctor.name4}}
+					</div>		
+			</mat-card-title>
+			<mat-card-subtitle>
+		 </mat-card-subtitle>
+			<br> <br>
+			<br>
+		</mat-card-header>
+		<mat-card-content>
+			<img [src]=pic2 class="ma">	<li *ngFor="let doctor of doctor">
+				{{doctor.studies4}}
+					</li>
+					<li *ngFor="let doctor of doctor">	{{doctor.experience4}}</li>
+					<li *ngFor="let doctor of doctor">	{{doctor.availibility4}}</li>
+					<li *ngFor="let doctor of doctor">	{{doctor.specialist4}}</li>
+					<li *ngFor="let doctor of doctor">	{{doctor.timing4}}</li>
+				  </mat-card-content>
+	  </div>
+  </mat-card>
+  </div>

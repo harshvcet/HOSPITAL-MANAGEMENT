@@ -1,0 +1,113 @@
+.inst {
+    border: 2px black solid;
+    padding: 0%;
+    border-radius: 50px;
+    width:950px;
+    margin-left:230px;
+    background-color: white;
+    height:300px;}
+  button {
+    background-color:#332FD0; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     border-radius:10px ;
+     position:relative;
+     left:130px;
+    top:15px;
+  }
+  .imagesss{
+position :relative;    
+left:450px;
+bottom:170px;
+}
+.imagess{
+    position :relative;    
+left:470px;
+bottom:150px;
+}
+  body{
+	
+    background-color: #332FD0;
+	}
+.velammal{
+   margin-left:400px;
+}
+h4{
+    size:100px;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+.numbers{
+  background-color:#332FD0; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     border-radius:10px ;
+     position:relative;
+     left:400px;
+    bottom:216px; 
+}
+.numberss{
+  background-color:#332FD0; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     border-radius:10px ;
+     position:relative;
+     left:400px;
+    bottom:210px; 
+}
+.numbersss{
+  background-color:#332FD0; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     border-radius:10px ;
+     position:relative;
+     left:400px;
+    bottom:172px; 
+}
+.heading{
+ font-size: 50px;
+ color:aliceblue;
+ text-align: center;
+ font-weight: 800;
+}
+.Home{
+  background-color:white; /* Green */
+  border: none;
+  color:black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   border-radius:10px ;
+   position:relative;
+   left:400px;
+  bottom:216px; 
+   left:30px;
+}
